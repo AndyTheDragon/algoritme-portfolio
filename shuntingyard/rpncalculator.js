@@ -1,5 +1,5 @@
-import Stack from '../../datastruktur-portfolio/Stack/stack.js';
-import Queue from '../../datastruktur-portfolio/Queue/queue.js';
+import Stack from './stack.js';
+import Queue from './queue.js';
 export function rpnCalculator(expression) {
     const log = () => {};
     const stack = new Stack();
